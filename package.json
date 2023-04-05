@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-starter-minimal-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Gatsby starter written in TypeScript with no plugins and a single welcome page.",
+  "author": "JV",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.16",
+    "class-variance-authority": "^0.5.1",
+    "gatsby": "^5.8.0",
+    "gatsby-link": "^5.8.0",
+    "gatsby-react-router-scroll": "^6.8.0",
+    "gatsby-script": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "standard": "^17.0.0",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@types/node": "^18.15.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^8.3.0",
+    "babel-preset-react-app": "^10.0.1",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-postcss": "^6.8.0",
+    "postcss": "^8.4.21",
+    "prop-types": "^15.8.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^4.9.5"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
